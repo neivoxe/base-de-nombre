@@ -1,0 +1,86 @@
+<html lang="fr">
+<head>
+<title>Les nombres binaires</title>
+<link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+
+<h1>Les nombres binaires</h1>
+
+<!-- système de navigation -->
+<nav class="navbar">
+    <ul>
+        <li><a href="web.html" > Accueil</a>
+        <li><a href="binaire.html" > binaire</a>
+        <li><a href="hexadecimal.html" > hexadecimal</a>
+        <li><a href="decimal.html" > decimal</a>
+    </ul>
+</nav>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les différentes bases de nombres</title>
+    <!-- lien avec le css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Système Hexadecimal en Informatique</h1>
+    </header>
+<!-- systeme pour scroller -->
+<div class="scroller">
+        <section>
+            <h2>Introduction</h2>
+            <p>Le système hexadécimal est fondamental en informatique. Découvrez son histoire, ses usages, avantages et inconvénients, ainsi que des convertisseurs pour les nombres binaires et héxadécimaux.</p>
+        </section>
+
+        <section>
+            <h2>Histoire du Hexadécimal</h2>
+            <p>Le système hexadécimal L'hexadécimal a été utilisé la première fois en 1956 par les ingénieurs de l'ordinateur Bendix G-15.</p>
+        </section>
+
+        <section>
+            <h2>Circonstances d'Utilisation</h2>
+            <p>la notation hexadécimale à être utilisée comme notation compacte et lisible (quatre fois moins de chiffres) pour des données, en particulier non numériques, codées en binaire. </p>
+        </section>
+
+        <section>
+            <h2>Utilité du Hexadécimal</h2>
+            <p>Le système hexadécimal permet un compromis entre le code binaire des machines et une base de numération pratique à utiliser pour les ingénieurs. En effet, chaque chiffre hexadécimal correspond exactement à quatre chiffres binaires (ou bits), rendant les conversions très simples et fournissant une écriture plus compacte.</p>
+        </section>
+
+        <section>
+            <h2>Avantages et Inconvénients</h2>
+            <p>Avantages : facilité de conversion,facile a comprendre</p>
+            <p>Inconvénients : Les conversions entre le système décimal et l'hexadécimal sont moins aisées que les conversions entre le système décimal et le binaire.</p>
+        </section>
+
+        <section>
+            <h2>Convertisseur Binaire vers Hexadécimal</h2>
+            <label for="binaryInput">Nombre binaire :</label>
+            <input type="text" id="binaryInput" placeholder="Entrez un nombre binaire">
+            <button onclick="convertBinaryToHexadecimal()">Convertir</button>
+            <p>Résultat en hexadécimal : <span id="hexadecimalOutput"></span></p>
+        </section>
+
+        <section>
+            <h2>Convertisseur Décimal vers Hexadécimal</h2>
+            <label for="decInput">Nombre décimal :</label>
+            <input type="text" id="decInput" placeholder="Entrez un nombre décimal">
+            <button onclick="convertDecToHexadecimal()">Convertir</button>
+            <p>Résultat en hexadécimal : <span id="HexaecimalOutput"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Système Hexadécimal en Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

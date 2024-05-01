@@ -1,0 +1,75 @@
+
+
+h1
+{
+	color:white;
+    font-weight: bold;
+    font-size: 3em;
+	text-align: center;
+	line-height: 150%
+	}
+h2
+{
+	color:white;
+	line-height:justify;
+    font-size: 1.5em;
+	}
+a
+{
+    font-style:italic;
+    line-height: 50px; /* espace entre chaque ligne*/
+    text-shadow: 3px 3px 3px #c0c0c0; /*ajoute une ombre*/
+    color:white;
+    }
+p
+{
+    letter-spacing: 1px; /*espace les lettres*/
+    word-spacing: 2px; /*espace les mots*/
+    font-size: 1.2em; /*augmente la taille des lettres*/
+    color:white;
+    }
+body
+{
+    background: linear-gradient(180deg, #8360c3, #2ebf91); /*ajoute le fond en dégradé*/
+    width: 70%; /*modifie la largeur de la zone d'apparition*/
+    min-width: 30px; /*nb de pixels d'espacement*/
+    height: 10vh; /*modifie la hauteur de la zone d'apparition*/
+    min-height: 10px;
+    position: absolute; /*changer la zone de place*/
+    position: relative;
+    position: fixed;
+    left: 15%;
+    }
+.navbar ul{
+    list-style-type: none; /*enlève les points avant les liens hypertextes*/
+    background-color: grey;
+    padding: 0px; /* modifie la marge intérieur de la barre de navigation*/
+    margin: 0px; /*pareil pour la marge éxterieur */
+    overflow: hidden; /* cache ce qui dépasse */
+    }
+.navbar a{
+    text-decoration:none; /* supprime les barres des liens hypertextes */
+    padding: 15px;
+    display: block; /* modifie la propriété des éléments. Ici les textes se transforment en blocs */
+    text-align: center;
+    }
+.navbar a:hover{
+    background-color: black; /* change la couleur du bloc lorsque la souris passe dessus */
+    }
+.navbar li{
+    float: left; /* permet de mettre les liens côte à côte */
+    }
+.scroller {
+    width: 70%;
+    min-width: 30px;
+    height: 60vh;
+    min-height: 10px;
+    position: absolute;
+    position: relative;
+    position: fixed;
+    left: 15%;
+    overflow-y: scroll; /* affiche la barre de scroll que de l'axe y */
+    scrollbar-color: grey white;
+    scrollbar-width: thin; /* taille de la barre. Ici elle est fine */
+
+    }

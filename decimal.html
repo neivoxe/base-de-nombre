@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les différentes bases de nombres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Système Décimal en Informatique</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Le système décimal est fondamental en informatique. Découvrez son histoire, ses usages, avantages et inconvénients, ainsi que des convertisseurs pour les nombres binaires et héxadécimaux.</p>
+        </section>
+
+        <section>
+            <h2>Histoire du Décimal</h2>
+            <p>Le système décimal a ses racines dans les anciennes civilisations et a été formalisé par le mathématicien français Simon Stevin au XVIe siècle.</p>
+        </section>
+
+        <section>
+            <h2>Circonstances d'Utilisation</h2>
+            <p>Le décimal est omniprésent en informatique, dans les langages de programmation, les systèmes d'exploitation, les bases de données et plus encore.</p>
+        </section>
+
+        <section>
+            <h2>Utilité du Décimal</h2>
+            <p>Le système décimal offre une représentation intuitive des nombres, facilitant les calculs et la compréhension des données.</p>
+        </section>
+
+        <section>
+            <h2>Avantages et Inconvénients</h2>
+            <p>Avantages : Simplicité, familiarité, compatibilité avec les circuits électroniques.</p>
+            <p>Inconvénients : Moins efficace pour certains calculs mathématiques, ne représente pas bien les nombres fractionnaires.</p>
+        </section>
+
+        <section>
+            <h2>Convertisseur Binaire vers Décimal</h2>
+            <label for="binaryInput">Nombre binaire :</label>
+            <input type="text" id="binaryInput" placeholder="Entrez un nombre binaire">
+            <button onclick="convertBinaryToDecimal()">Convertir</button>
+            <p>Résultat en décimal : <span id="decimalOutput"></span></p>
+        </section>
+
+        <section>
+            <h2>Convertisseur Héxadécimal vers Décimal</h2>
+            <label for="hexInput">Nombre héxadécimal :</label>
+            <input type="text" id="hexInput" placeholder="Entrez un nombre héxadécimal">
+            <button onclick="convertHexToDecimal()">Convertir</button>
+            <p>Résultat en décimal : <span id="hexDecimalOutput"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Système Décimal en Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
